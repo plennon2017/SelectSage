@@ -1,0 +1,14 @@
+{
+  "similarity_threshold": [0.005, 0.05, 0.1, 0.3, 0.5, 0.7, 0.9],
+  "similarity_function": [ "cosine", "euclidean", "linear", "manhattan" ],
+  "emb_h_size": [ 410, 205 ],
+  "mlp_h1_size": 256,
+  "mlp_h2_size": 54,
+  "num_classes": 10,
+  "epochs": 20,
+  "loss": "crossentropy",
+  "gamma":  0,
+  "learning_rate": 0.001,
+  "batch_size": 1024,
+  "graph_path": "../graphs/graph_multi_features.bin"
+}

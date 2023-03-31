@@ -1,0 +1,15 @@
+{
+"similarity_threshold": 0.5,
+  "similarity_function": "cosine",
+  "emb_h_size": [ 410, 205 ],
+  "mlp_h1_size": 256,
+  "mlp_h2_size": 54,
+  "num_classes": 2,
+  "epochs": 200,
+  "loss": "crossentropy",
+  "gamma": 0,
+  "learning_rate": 0.001,
+  "batch_size": 1024,
+  "graph_path": "../graphs/graph_binary_features.bin"
+}
+
